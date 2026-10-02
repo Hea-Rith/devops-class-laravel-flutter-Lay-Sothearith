@@ -13,7 +13,7 @@ Code -> Test -> Build -> Release -> Deploy
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. Code** | Commit API | **API:** `api/room/listing/search`<br>**Screen:** `RoomListSearch.dart` | Developer | Commit | Manual |
 | **2. Test** | Check API | **API:** `api/room/listing/search`<br>**Screen:** `search list` | Developer | Test result | Auto |
-| **3. Build** | Package API + APK | — | Developer | Artifacts | Auto |
+| **3. Build** | Package API + APK | — | Artifacts | APK | Auto |
 | **4. Release**| Approve `v1.0.0` | — | Release Lead | Approved version | Manual |
 | **5. Deploy** | Stage API; Install APK | — | Ops / Tester | Running app | Manual |
 ### Controls
