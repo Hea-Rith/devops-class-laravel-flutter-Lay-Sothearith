@@ -11,7 +11,7 @@
 Code -> Test -> Build -> Release -> Deploy
 | Phase | Action | Details / Components | Person | Output | Mode |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Code** | Commit API updates | **API:** `api/room/listing/search`<br>**Screen:** `RoomListSearch.dart` | Developer | Commit | Manual |
+| **1. Code** | Commit API | **API:** `api/room/listing/search`<br>**Screen:** `RoomListSearch.dart` | Developer | Commit | Manual |
 | **2. Test** | Check API | **API:** `api/room/listing/search`<br>**Screen:** `search list` | Developer | Test result | Auto |
 | **3. Build** | Package API + APK | — | Developer | Artifacts | Auto |
 | **4. Release**| Approve `v1.0.0` | — | Release Lead | Approved version | Manual |
